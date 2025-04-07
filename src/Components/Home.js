@@ -3,7 +3,7 @@ import Lottie from  "lottie-react";
 import SpaceBoy from "../LottieFiles/SpaceBoy.json";
 import Typed from "./Typed.js";
 import Tilt from 'react-parallax-tilt';
-import Avatar from '../images/Avatar.jpg';
+import Avatar from '../images/resume 2.jpg';
 import {FaGithub, FaLinkedin} from "react-icons/fa";
 import {GrMail} from "react-icons/gr";
 import {SiLeetcode} from "react-icons/si"
@@ -34,17 +34,17 @@ const Home = () => {
 
         <div className='HomeText'>
           <h1>Hi There!</h1>
-          <h1>I'M <b>SHUDHANSHU KUMAR TIWARI</b></h1>
+          <h1>I'M <b>SAHIL ITTAN</b></h1>
           <Typed/>
           <div className='links'>
               <div className='HeaderLinks'>
               {/* <h4>Connect with me</h4> */}
-                <a href="https://github.com/Sktiwary9122" target='_blank'><FaGithub/></a>
-                <a href="https://www.linkedin.com/in/sktiwary9122" target='_blank'><FaLinkedin/></a>
-                <a href="mailto:sktiwary9122@gmail.com">
+                <a href="https://github.com/Jamiwal-3704" target='_blank'><FaGithub/></a>
+                <a href="https://www.linkedin.com/in/sahilittan" target='_blank'><FaLinkedin/></a>
+                <a href="mailto:ittansahil@gmail.com">
                   <GrMail />
                 </a>
-                <a href="https://leetcode.com/u/shudhanshu9122/" target="_blank"><SiLeetcode/></a>
+                <a href="https://leetcode.com/u/JAMIWAL/" target="_blank"><SiLeetcode/></a>
               </div>
           </div>   
         </div>

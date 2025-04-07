@@ -1,4 +1,4 @@
-<h2 align="center">Personal Portfolio <br/> <a target="_blank" href="https://portfolio-byme.netlify.app">Shudhanshu Kumar Tiwari</a></h2>
+<h2 align="center">Personal Portfolio <br/> <a target="_blank" href="https://portfolio-byme.netlify.app">Sahil Ittan</a></h2>
 
 <br/>
 

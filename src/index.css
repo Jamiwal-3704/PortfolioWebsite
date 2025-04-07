@@ -310,8 +310,12 @@ ul{
   font-weight: bold;
 }
 
-.Avatar{
-  width: 280px;
+.Avatar {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-top: -30px;
 }
 
 @media(max-width:900px){
@@ -332,9 +336,10 @@ ul{
     font-size: 26px;
   }
 
-  .Avatar{
-    width: 200px;
+  .Avatar {
+    width: 250px;
     margin-bottom: 75px;
+    margin-top: -20px;
   }
 }
 
@@ -509,7 +514,7 @@ ul{
   .AboutText{
     font-size: 16px;
   }
-  .Avatar{
+  .Avatar {
     width: 200px;
     margin-bottom: 25px;
   }

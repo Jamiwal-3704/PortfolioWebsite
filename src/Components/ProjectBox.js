@@ -8,8 +8,8 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
   const projectName1 = projectname.replace(" ","")
   const desc = {
     TopCoursesDesc : "Using API I have built an attractive website which fetch the top courses of a particular educational website I have applied various filter on it using which one can access courses of particular domain Technologies used- React.js, Tailwind",
-    TopCoursesGithub : "https://github.com/Sktiwary9122/Top-courses.git",
-    TopCoursesWebsite : "https://top-courses-byme.netlify.app",
+    TopCoursesGithub : "https://github.com/Jamiwal-3704/TopCourse",
+    TopCoursesWebsite : "https://top-course-roan.vercel.app/",
 
     RandomGifGeneratorDesc: "This is a Random gif generator website which is built on th e api provided by GIPHY an gif company. This project is built with React, HTML and tailwind. This is a fun to explore webite",
     RandomGifGeneratorGithub : "https://github.com/Sktiwary9122/Random-gif.git",

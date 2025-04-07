@@ -11,12 +11,13 @@ const About = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading' >Get to <b>know</b> me!</h1>
           <p>
-            Hi, my name is <b>Shudhanshu Kumar Tiwari</b> and I am from Hazaribagh, India.
-            I'm a <b>MERN stack web developer</b> and a College student pursuing <b>BTech in CSE</b>  from <b>CHANDIGARH UNIVERSITY</b> <br/><br/>
-            {/* I have done an internship as a <b>software developer</b> at GoalFi which is a fintech startup. */}
-            I am a MERN stack developer adept at crafting full-stack web applications using <b>MongoDB</b>, <b>Express.js</b>, <b>React</b>, and <b>Node.js</b>. I am Skilled in developing robust solutions, seamlessly integrating front-end user interfaces with back-end server logic and databases, you can check out some of my work in the projects section.<br/><br/>
-            I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me through my <b>social media</b> links, in the footer or Just fill the <b>contact me form</b> and I will surely respond within <b>1 HOUR</b>.<br/>
-            Apart from coding I love High Jumping, I have been awarded for the same at State level
+            Hi, I'm <b>Sahil Ittan</b> and I'm from Ahmedabad, Gujarat 🇮🇳 and currently pursuing a B.E. in Computer Science and Engineering at Chandigarh University.
+
+            I'm a MERN stack web developer passionate about building dynamic and user-focused web applications using <b>MongoDB</b>, <b>Express.js</b>, <b>React</b>, and <b>Node.js</b>. I love bringing ideas to life by connecting sleek front-end designs with efficient and scalable back-end systems.
+
+            I'm <b>open</b> to collaborations, freelance projects, or any opportunity where I can contribute, learn, and grow. Feel free to connect with me through my <b>social media</b> links in the footer or drop me a message via the <b>contact me form</b>—I usually reply within an hour!
+
+            Outside the tech world, I'm also into UI/UX design, and have recently started exploring it to enhance the visual side of my projects. Oh, and fun fact—I've been a team manager for a prize-winning web project and I absolutely love music and creative expression 🎶🎨
           </p>
         </div>
 
