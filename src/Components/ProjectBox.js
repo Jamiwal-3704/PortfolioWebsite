@@ -58,13 +58,13 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
 
 
   return (
-    <div className='md:w-[22rem] w-[20rem] h-[33rem] border-4 border-[#431f47] pt-8 px-4 rounded-xl hover:shadow-[0_14px_20px_0_#d9f02a] hover:border-4 hover:border-[#d9f02a]' >
-      <img className='h-40 w-full border-2 rounded-xl scale-105 bg-black object-cover' src={projectPhoto} alt="Project display" />
+    <div className='relative md:w-[20rem] w-[18rem] h-[30rem] border-4 border-[#431f47] pt-8 px-4 rounded-xl hover:shadow-[0_14px_20px_0_#d9f02a] hover:border-4 hover:border-[#d9f02a]' >
+      <img className='h-36 w-full border-2 rounded-xl scale-105 bg-black object-cover' src={projectPhoto} alt="Project display" />
       <div>
         <br />
-        <h3 className='text-center uppercase font-bold text-2xl'>{projectName}</h3>
+        <h3 className='text-center uppercase font-bold text-xl'>{projectName}</h3>
         <br />
-        <div className='text-justify text-white '>
+        <div className='text-justify text-white text-sm'>
           {desc[projectName1 + 'Desc']}
         </div>
 
