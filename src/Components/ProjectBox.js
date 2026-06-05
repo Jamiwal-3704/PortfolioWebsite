@@ -31,15 +31,15 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     "v-noteGithub": "https://github.com/Jamiwal-3704/V-NOTE",
     "v-noteWebsite": "",
 
-    PrepDeckMCQStudioDesc: "PrepDeck MCQ Studio is an AI-powered MCQ practice and quiz platform built to help students, educators, and exam aspirants create and practice multiple-choice questions effortlessly. Users can paste questions in various formats such as numbered lists, markdown, HTML details blocks, or even plain text paragraphs and generate fresh MCQs using AI. The platform supports multiple AI providers including Groq, Gemini, ChatGPT, and OpenRouter. It offers features like question shuffling, timed quizzes, answer review, performance tracking, CSV/PDF result exports, and downloadable answer sheets. Built with React and Vite, the application runs entirely in the browser without any backend or database, ensuring fast performance, privacy, and security.",
+    PrepDeckMCQStudioDesc: "PrepDeck MCQ Studio is an AI-powered quiz platform for creating MCQs from markdown, lists, or plain text. It supports models like Groq, Gemini, and ChatGPT, featuring timed quizzes, shuffling, performance tracking, and PDF/CSV exports. Built with React and Vite, it runs completely offline in the browser.",
     PrepDeckMCQStudioGithub: "https://github.com/Jamiwal-3704/PrepDeckMCQStudio",
     PrepDeckMCQStudioWebsite: "https://prep-deck-mcq-studio.vercel.app/",
 
-    TripUniteDesc: "TripUnite is a full-stack travel companion platform designed to help travelers discover destinations, connect with like-minded travel companions, and plan journeys together. Users can create and join trips, find compatible travel partners based on destination and travel preferences, and organize their travel plans through an intuitive dashboard. The platform also features an AI-powered travel assistant for trip planning, secure JWT-based authentication, multilingual support, and responsive dark/light themes. Built with React, Node.js, Express, Supabase, and Tailwind CSS, TripUnite delivers a modern, community-focused travel experience with a scalable cloud-ready architecture.",
+    TripUniteDesc: "TripUnite is a full-stack travel companion platform to discover destinations, connect with partners, and plan journeys. It features an AI-powered travel planner, dashboard, JWT security, and responsive dark/light themes. Developed using React, Node.js, Express, Supabase, and Tailwind CSS.",
     TripUniteGithub: "https://github.com/Jamiwal-3704/TripUnite",
     TripUniteWebsite: "https://tripunite.vercel.app/",
 
-    HungryHubDesc: "HungryHub is a modern full-stack food delivery platform designed for Customers, Restaurants, Delivery Drivers, and Admins. Customers can browse restaurant menus, manage carts, apply discount coupons, place orders, track deliveries, and review past purchases. Restaurants can manage menus and update order statuses, while drivers receive and complete delivery assignments. The platform includes secure JWT authentication, Role-Based Access Control (RBAC), Redis distributed caching for shared cart and session management, coupon and promotion handling, contact inquiry management, and dynamic real-time cart synchronization. Developed using ASP.NET Core Web API, ASP.NET Core MVC, PostgreSQL (NeonDB), Redis, Entity Framework Core, Docker, and deployed on cloud infrastructure, the project demonstrates enterprise-level architecture, scalability, security, and clean code practices.",
+    HungryHubDesc: "HungryHub is a full-stack food delivery system with role-based dashboards for customers, drivers, and admins. It features Redis session caching, secure JWT auth, coupon management, and real-time cart sync. Built with ASP.NET Core Web API, MVC, PostgreSQL, and Docker.",
     HungryHubGithub: "https://github.com/Jamiwal-3704/HungryHub",
     HungryHubWebsite: "https://hungryhub-mvc.onrender.com/",
 
@@ -59,7 +59,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
 
   return (
     <div className='md:w-[22rem] w-[20rem] h-[33rem] border-4 border-[#431f47] pt-8 px-4 rounded-xl hover:shadow-[0_14px_20px_0_#d9f02a] hover:border-4 hover:border-[#d9f02a]' >
-      <img className='border-2 rounded-xl scale-105 bg-black object-contain' src={projectPhoto} alt="Project display" />
+      <img className='h-40 w-full border-2 rounded-xl scale-105 bg-black object-cover' src={projectPhoto} alt="Project display" />
       <div>
         <br />
         <h3 className='text-center uppercase font-bold text-2xl'>{projectName}</h3>
