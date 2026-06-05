@@ -8,6 +8,9 @@ import weather from '../images/weather.png'
 import password from '../images/password.png'
 import blog from '../images/blog.png'
 import vnote from '../images/vnote.png'
+import prepdeck from '../images/prepdeck.png'
+import tripunite from '../images/tripunite.png'
+import hungryhub from '../images/hungryhub.png'
 import Tilt from 'react-parallax-tilt';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -68,6 +71,21 @@ const Projects = () => {
         <div className='boxes'>
           <Tilt>
             <ProjectBox projectPhoto={blog} projectName="blog website" />
+          </Tilt>
+        </div>
+        <div className='boxes'>
+          <Tilt>
+            <ProjectBox projectPhoto={prepdeck} projectName="PrepDeck MCQ Studio" />
+          </Tilt>
+        </div>
+        <div className='boxes'>
+          <Tilt>
+            <ProjectBox projectPhoto={tripunite} projectName="TripUnite" />
+          </Tilt>
+        </div>
+        <div className='boxes'>
+          <Tilt>
+            <ProjectBox projectPhoto={hungryhub} projectName="HungryHub" />
           </Tilt>
         </div>
 

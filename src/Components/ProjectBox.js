@@ -1,73 +1,88 @@
 import React from 'react';
-import {FaGithub} from "react-icons/fa";
-import {CgFileDocument} from "react-icons/cg";
+import { FaGithub } from "react-icons/fa";
+import { CgFileDocument } from "react-icons/cg";
 
 
-const  ProjectBox = ({projectPhoto, projectName}) => {
-  const projectname = projectName.replace(" ","");
-  const projectName1 = projectname.replace(" ","")
+const ProjectBox = ({ projectPhoto, projectName }) => {
+  const projectname = projectName.replace(" ", "");
+  const projectName1 = projectname.replace(" ", "")
   const desc = {
-    TopCoursesDesc : "Using API I have built an attractive website which fetch the top courses of a particular educational website I have applied various filter on it using which one can access courses of particular domain Technologies used- React.js, Tailwind",
-    TopCoursesGithub : "https://github.com/Jamiwal-3704/TopCourse",
-    TopCoursesWebsite : "https://top-course-roan.vercel.app/",
+    TopCoursesDesc: "Using API I have built an attractive website which fetch the top courses of a particular educational website I have applied various filter on it using which one can access courses of particular domain Technologies used- React.js, Tailwind",
+    TopCoursesGithub: "https://github.com/Jamiwal-3704/TopCourse",
+    TopCoursesWebsite: "https://top-course-roan.vercel.app/",
 
     RandomGifGeneratorDesc: "This is a Random gif generator website which is built on th e api provided by GIPHY an gif company. This project is built with React, HTML and tailwind. This is a fun to explore webite",
-    RandomGifGeneratorGithub : "https://github.com/Sktiwary9122/Random-gif.git",
-    RandomGifGeneratorWebsite : "https://gif-generator-byme.netlify.app",
+    RandomGifGeneratorGithub: "https://github.com/Jamiwal-3704/GiphyVibe_GifGenerator",
+    RandomGifGeneratorWebsite: "https://gifspark.vercel.app/",
 
-    WeatherDetailsDesc:"Using the free API available on the internet I made an weather app which has a beautiful interface one can view the weather details of their current location also they can search weather details of any city accross the globe.Technologies used- HTML, CSS, JAVASCRIPT",
-    WeatherDetailsGithub:"https://github.com/Sktiwary9122/weather-app.git",
-    WeatherDetailsWebsite:"https://weather-detail-byme.netlify.app",
-    
-    passwordGeneratorDesc:"An password generator app whhich you can use to create password it also states the difficulty level of the password generated. It gives the user flexibility of choosing what things to include in your password.",
-    passwordGeneratorGithub:"https://github.com/Sktiwary9122/Password-generator.git",
-    passwordGeneratorWebsite:"https://password-generator-byme.netlify.app",
+    WeatherDetailsDesc: "Using the free API available on the internet I made an weather app which has a beautiful interface one can view the weather details of their current location also they can search weather details of any city accross the globe.Technologies used- HTML, CSS, JAVASCRIPT",
+    WeatherDetailsGithub: "https://github.com/Jamiwal-3704/weatherly",
+    WeatherDetailsWebsite: "https://weather-detail-byme.netlify.app",
 
-    blogwebsiteDesc:"This is an blog website where one can read blogs published by different person accross the globe. One can read blogs of certain tags or by certain users. Though this website is built on a dummy api which has different fake blogs on it. But it works completely fine",
-    blogwebsiteGithub:"",
-    blogwebsiteWebsite:"https://blog-website-byme.netlify.app",
+    passwordGeneratorDesc: "An password generator app whhich you can use to create password it also states the difficulty level of the password generated. It gives the user flexibility of choosing what things to include in your password.",
+    passwordGeneratorGithub: "https://github.com/Jamiwal-3704/Password-generator",
+    passwordGeneratorWebsite: "https://password-generator-five-xi-69.vercel.app/",
 
-    "v-noteDesc":"V-Note is made using python libraries like Media-pipe and Open cv	It is a hand gesture-controlled note taking app. which help the users to get rid of the traditional pen and paper system or even the digital pen system This was a group project which was made in an 24 hours long hackathon",
-    "v-noteGithub":"https://github.com/Sktiwary9122/HacknWin-slytherin-T-55-.git",
-    "v-noteWebsite":"",
+    blogwebsiteDesc: "This is an blog website where one can read blogs published by different person accross the globe. One can read blogs of certain tags or by certain users. Though this website is built on a dummy api which has different fake blogs on it. But it works completely fine",
+    blogwebsiteGithub: "",
+    blogwebsiteWebsite: "https://blog-website-byme.netlify.app",
+
+    "v-noteDesc": "V-Note is made using python libraries like Media-pipe and Open cv	It is a hand gesture-controlled note taking app. which help the users to get rid of the traditional pen and paper system or even the digital pen system This was a group project which was made in an 24 hours long hackathon",
+    "v-noteGithub": "https://github.com/Jamiwal-3704/V-NOTE",
+    "v-noteWebsite": "",
+
+    PrepDeckMCQStudioDesc: "PrepDeck MCQ Studio is an AI-powered MCQ practice and quiz platform built to help students, educators, and exam aspirants create and practice multiple-choice questions effortlessly. Users can paste questions in various formats such as numbered lists, markdown, HTML details blocks, or even plain text paragraphs and generate fresh MCQs using AI. The platform supports multiple AI providers including Groq, Gemini, ChatGPT, and OpenRouter. It offers features like question shuffling, timed quizzes, answer review, performance tracking, CSV/PDF result exports, and downloadable answer sheets. Built with React and Vite, the application runs entirely in the browser without any backend or database, ensuring fast performance, privacy, and security.",
+    PrepDeckMCQStudioGithub: "https://github.com/Jamiwal-3704/PrepDeckMCQStudio",
+    PrepDeckMCQStudioWebsite: "https://prep-deck-mcq-studio.vercel.app/",
+
+    TripUniteDesc: "TripUnite is a full-stack travel companion platform designed to help travelers discover destinations, connect with like-minded travel companions, and plan journeys together. Users can create and join trips, find compatible travel partners based on destination and travel preferences, and organize their travel plans through an intuitive dashboard. The platform also features an AI-powered travel assistant for trip planning, secure JWT-based authentication, multilingual support, and responsive dark/light themes. Built with React, Node.js, Express, Supabase, and Tailwind CSS, TripUnite delivers a modern, community-focused travel experience with a scalable cloud-ready architecture.",
+    TripUniteGithub: "https://github.com/Jamiwal-3704/TripUnite",
+    TripUniteWebsite: "https://tripunite.vercel.app/",
+
+    HungryHubDesc: "HungryHub is a modern full-stack food delivery platform designed for Customers, Restaurants, Delivery Drivers, and Admins. Customers can browse restaurant menus, manage carts, apply discount coupons, place orders, track deliveries, and review past purchases. Restaurants can manage menus and update order statuses, while drivers receive and complete delivery assignments. The platform includes secure JWT authentication, Role-Based Access Control (RBAC), Redis distributed caching for shared cart and session management, coupon and promotion handling, contact inquiry management, and dynamic real-time cart synchronization. Developed using ASP.NET Core Web API, ASP.NET Core MVC, PostgreSQL (NeonDB), Redis, Entity Framework Core, Docker, and deployed on cloud infrastructure, the project demonstrates enterprise-level architecture, scalability, security, and clean code practices.",
+    HungryHubGithub: "https://github.com/Jamiwal-3704/HungryHub",
+    HungryHubWebsite: "https://hungryhub-mvc.onrender.com/",
+
+
+
   }
 
-  let show ='';
-  let hide ='';
-  if(desc[projectName + 'Github']===""){
-    show="none";
+  let show = '';
+  let hide = '';
+  if (desc[projectName1 + 'Github'] === "") {
+    show = "none";
   }
-  if(desc[projectName + 'Website']===""){
-    hide="none";
+  if (desc[projectName1 + 'Website'] === "") {
+    hide = "none";
   }
 
-    
+
   return (
-    <div className='md:w-[22rem] w-[20rem] h-[33rem] border-4 border-[#431f47] pt-8 px-4 rounded-xl hover:shadow-[0_14px_20px_0_#d9f02a] hover:border-4 hover:border-[#d9f02a]' > 
-        <img className='border-2 rounded-xl scale-105 bg-black object-contain' src={projectPhoto} alt="Project display" /> 
-        <div>
-            <br />
-            <h3 className='text-center uppercase font-bold text-2xl'>{projectName}</h3>
-            <br />
-            <div className='text-justify text-white '>
-              {desc[projectName1 + 'Desc']}
-            </div>
-            
-            <br />
-            <div className='flex justify-evenly w-[100%] items-center absolute bottom-4 right-2'>
-
-            
-            <a style={{display:show}} href={desc[projectName1 + 'Github']} target='_blank' >
-              <button className='flex gap-2 bg-[#431f47] text-xl items-center justify-center p-2 px-5 rounded-xl font-bold hover:bg-[#d9f02a] hover:text-black '><FaGithub/> Github</button>
-            </a>
-
-            <a style={{display:hide}} href={desc[projectName1 + 'Website']} target='_blank'>
-              <button className='flex gap-2 bg-[#431f47] text-xl items-center justify-center p-2 rounded-xl hover:bg-[#d9f02a] hover:text-black font-bold'><CgFileDocument/> Live Demo</button>
-            </a>
-            </div>
+    <div className='md:w-[22rem] w-[20rem] h-[33rem] border-4 border-[#431f47] pt-8 px-4 rounded-xl hover:shadow-[0_14px_20px_0_#d9f02a] hover:border-4 hover:border-[#d9f02a]' >
+      <img className='border-2 rounded-xl scale-105 bg-black object-contain' src={projectPhoto} alt="Project display" />
+      <div>
+        <br />
+        <h3 className='text-center uppercase font-bold text-2xl'>{projectName}</h3>
+        <br />
+        <div className='text-justify text-white '>
+          {desc[projectName1 + 'Desc']}
         </div>
+
+        <br />
+        <div className='flex justify-evenly w-[100%] items-center absolute bottom-4 right-2'>
+
+
+          <a style={{ display: show }} href={desc[projectName1 + 'Github']} target='_blank' >
+            <button className='flex gap-2 bg-[#431f47] text-xl items-center justify-center p-2 px-5 rounded-xl font-bold hover:bg-[#d9f02a] hover:text-black '><FaGithub /> Github</button>
+          </a>
+
+          <a style={{ display: hide }} href={desc[projectName1 + 'Website']} target='_blank'>
+            <button className='flex gap-2 bg-[#431f47] text-xl items-center justify-center p-2 rounded-xl hover:bg-[#d9f02a] hover:text-black font-bold'><CgFileDocument /> Live Demo</button>
+          </a>
+        </div>
+      </div>
     </div>
   )
 }
 
-export default  ProjectBox
+export default ProjectBox
