@@ -7,26 +7,10 @@ import Avatar from '../images/resume 2.jpg';
 import {FaGithub, FaLinkedin} from "react-icons/fa";
 import {GrMail} from "react-icons/gr";
 import {SiLeetcode} from "react-icons/si"
-import { FaHeart } from "react-icons/fa6";
-import {CiCoffeeCup} from "react-icons/ci";
-import { IoIosArrowDroprightCircle } from "react-icons/io";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 
 
 const Home = () => {
-  function PauseOnHover() {
-    var settings = {
-      dots: true,
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2000,
-      pauseOnHover: true
-    };
-  }
+
   
   return (
     <div >
@@ -39,12 +23,12 @@ const Home = () => {
           <div className='links'>
               <div className='HeaderLinks'>
               {/* <h4>Connect with me</h4> */}
-                <a href="https://github.com/Jamiwal-3704" target='_blank'><FaGithub/></a>
-                <a href="https://www.linkedin.com/in/sahilittan" target='_blank'><FaLinkedin/></a>
+                <a href="https://github.com/Jamiwal-3704" target='_blank' rel="noreferrer"><FaGithub/></a>
+                <a href="https://www.linkedin.com/in/sahilittan" target='_blank' rel="noreferrer"><FaLinkedin/></a>
                 <a href="mailto:ittansahil@gmail.com">
                   <GrMail />
                 </a>
-                <a href="https://leetcode.com/u/JAMIWAL/" target="_blank"><SiLeetcode/></a>
+                <a href="https://leetcode.com/u/JAMIWAL/" target="_blank" rel="noreferrer"><SiLeetcode/></a>
               </div>
           </div>   
         </div>

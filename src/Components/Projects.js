@@ -12,9 +12,6 @@ import prepdeck from '../images/prepdeck.png'
 import tripunite from '../images/tripunite.png'
 import hungryhub from '../images/hungryhub.png'
 import Tilt from 'react-parallax-tilt';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 
